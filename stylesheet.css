@@ -1,0 +1,123 @@
+html, body {
+ margin: 0px;
+ padding: 0px;
+ border-style: none;
+ }
+
+body {
+ background: #000000;
+ }
+
+a {
+ color : #f90;
+ text-decoration:underline;
+ }
+
+a:visited, a:hover {
+ color:#fcc;
+ text-decoration:none;
+ }
+
+#body {
+ width: 700px;
+ height: 390px;
+ background: #ffffff;
+ border: solid #cccccc 4px;
+ border-radius: 10px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 1em;
+ padding: 5px;
+ position:relative;
+ 
+ }
+ 
+ #body h1 {
+ font : bold small-caps 30px/30px Garamond, "Times New Roman", Times, serif;
+ color : #060;
+ }
+
+#body h2, #body h2 a, #body h2 a:hover, #body h2 a:visited {
+ color : #060;
+ font : bold small-caps 24px/20px Garamond, "Times New Roman", Times, serif;
+ }
+
+#body h2 a:hover, #body h2 a:visited {
+ text-decoration:underline;
+ }
+ 
+#body h3 {
+ font : bold 16px/14px Geneva, Arial, Helvetica, sans-serif;
+ color : #f90;
+ margin-bottom: 0px;
+ }
+
+#body h3 a, #body h3 a:hover, #body h3 a:visited {
+ color : #f90;
+ text-decoration:underline;
+ }
+
+#body h4 {
+ font : bold 12px/12px Geneva, Arial, Helvetica, sans-serif;
+ color : #060;
+ margin-top:-10px;
+ }
+
+#body p, #body ul, #body ul li {
+ font : 14px/16px Geneva, Arial, Helvetica, sans-serif;
+ }
+ 
+ .bottom{
+    border-top: none;
+    height: 20px;
+}
+
+#footer {
+    clear:both;
+    text-align:center;
+    color: #ffffff;
+}
+
+#display {
+    height: 30px;
+    border: 1px black solid;
+    background: #003300;
+    color: #00ff00;
+    text-align: right;
+    padding: 3px;
+    font: 20px Helvetica, sans-serif;
+}
+
+.numButton {
+    width: 125px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.opsButton {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#equalButton {
+    width: 110px;
+    height: 50px;
+    margin 5px;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.spacer{
+    float: left;
+    width: 15px;
+    height: 300px;
+}
